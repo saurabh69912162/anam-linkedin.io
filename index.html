@@ -1,127 +1,668 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anamika Saxena | Certified Scrum Master</title>
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anamika Saxena - Certified Scrum Master and Agile Delivery Lead. Driving collaboration, velocity, and business outcomes through Agile methodologies.">
+    <meta name="keywords" content="Scrum Master, Agile, Agile Delivery Lead, CSM, Project Management, SAP, JIRA">
+    <meta name="author" content="Anamika Saxena">
+    
+    <!-- Open Graph / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saurabh69912162.github.io/anamika-portfolio/">
+    <meta property="og:title" content="Anamika Saxena - Certified Scrum Master | Agile Delivery Lead">
+    <meta property="og:description" content="Driving Collaboration, Velocity, and Business Outcomes through Agile methodologies">
+    <meta property="og:image" content="https://saurabh69912162.github.io/anamika-portfolio/assets/img/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Anamika Saxena - Certified Scrum Master">
+    <meta property="twitter:description" content="Driving Collaboration, Velocity, and Business Outcomes">
+    
+    <title>Anamika Saxena - Certified Scrum Master | Agile Delivery Lead</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold text-primary" href="#">Anamika Saxena</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#case-study">Case Study</a></li>
-          <li class="nav-item"><a class="nav-link" href="#recommendations">Recommendations</a></li>
-          <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero text-center py-5 mt-5">
-    <div class="container">
-      <h1 class="fw-bold text-primary">Anamika Saxena</h1>
-      <p class="lead text-muted mb-4">Certified Scrum Master | Agile Delivery Lead | Driving Collaboration & Business Outcomes</p>
-      <a href="#connect" class="btn btn-primary">Connect on LinkedIn</a>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="py-5">
-    <div class="container">
-      <h2 class="text-primary mb-4">About Me</h2>
-      <p>
-        As a Certified Scrum Master and Agile Delivery Lead, I live and lead by the five Scrum values — 
-        <strong>Commitment, Courage, Focus, Openness, and Respect</strong> — transforming how teams collaborate and deliver outcomes.
-      </p>
-      <p>
-        With a foundation in <strong>SAP UI5/Fiori, ABAP, and Build Process Automation</strong>, I bridge the gap between agile delivery and development.
-        My mission: empower teams to deliver value with speed, clarity, and purpose — and to do it with heart.
-      </p>
-      <blockquote class="blockquote">
-        “Agility is not about speed alone; it’s about moving fast in the right direction, together.”
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- Case Study -->
-  <section id="case-study" class="bg-light py-5">
-    <div class="container">
-      <h2 class="text-primary mb-4">Case Study: Agile Transformation at Daimler Trucks</h2>
-      <p>
-        I led the Agile transformation of Daimler Trucks’ SAP S/4HANA procurement project using Scrumban, improving delivery visibility and team synchronization.
-      </p>
-      <ul>
-        <li>Introduced sprint reviews and Definition of Done for higher transparency.</li>
-        <li>Used JIRA dashboards for real-time progress tracking and bottleneck resolution.</li>
-        <li>Reduced manual effort through automation and feedback integration.</li>
-      </ul>
-      <p><strong>Result:</strong> Predictable delivery cycles, improved cross-team collaboration, and accelerated feature rollout.</p>
-    </div>
-  </section>
-
-  <!-- Recommendations -->
-  <section id="recommendations" class="py-5">
-    <div class="container">
-      <h2 class="text-primary mb-4">Recommendations</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body">
-              <p>“Anamika’s leadership as a Scrum Master has been invaluable. She redefined our sprint planning and retrospectives, which improved team morale and delivery speed.”</p>
-              <h6 class="text-primary mb-0">— Priya Patel, Product Owner</h6>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Anamika Saxena</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#case-study">Case Study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#linkedin-posts">Latest Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recommendations">Recommendations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body">
-              <p>“Her expertise and open communication style made our Kanban rollout smooth and effective.”</p>
-              <h6 class="text-primary mb-0">— Rajesh Gupta, Security Lead</h6>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="display-3 fw-bold mb-3">Anamika Saxena</h1>
+                    <h2 class="h4 mb-3">Certified Scrum Master | Agile Delivery Lead</h2>
+                    <p class="lead mb-4">Driving Collaboration, Velocity, and Business Outcomes</p>
+                    <a href="https://www.linkedin.com/in/anamika-saxena1999/" target="_blank" class="btn btn-primary btn-lg px-5 py-3">
+                        <i class="bi bi-linkedin me-2"></i>Connect on LinkedIn
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body">
-              <p>“Anamika’s facilitation of stand-ups and clear tracking kept our international team aligned and on schedule.”</p>
-              <h6 class="text-primary mb-0">— Martina Schmidt, Agile Coach</h6>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <p class="lead">
+                            As a Certified Scrum Master and Agile Delivery Lead, I live and lead by the five Scrum values — <strong>Commitment, Courage, Focus, Openness, and Respect</strong> — transforming how teams collaborate and deliver outcomes.
+                        </p>
+                        <p>
+                            With a foundation in SAP UI5/Fiori, ABAP, and Build Process Automation, I bridge the gap between agile delivery and development.
+                        </p>
+                        <p>
+                            My mission: empower teams to deliver value with speed, clarity, and purpose — and to do it with heart.
+                        </p>
+                        <blockquote class="quote">
+                            <i class="bi bi-quote quote-icon"></i>
+                            <p>"Agility is not about speed alone; it's about moving fast in the right direction, together."</p>
+                        </blockquote>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Connect Section -->
-  <section id="connect" class="bg-light py-5 text-center">
-    <div class="container">
-      <h2 class="text-primary mb-3">Let’s Connect</h2>
-      <p>Follow my latest posts and Agile insights on LinkedIn.</p>
-      <a href="https://www.linkedin.com/in/anamika-saxena1999/" class="btn btn-outline-primary" target="_blank">Visit My LinkedIn</a>
-    </div>
-  </section>
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline-container">
+                <div class="accordion" id="experienceAccordion">
+                    
+                    <!-- Experience 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-bs-toggle="collapse" data-bs-target="#exp1" aria-expanded="false">
+                            <div class="timeline-header">
+                                <div>
+                                    <h5 class="timeline-position">Senior Associate Consultant | Scrum Master</h5>
+                                    <p class="timeline-company">Infosys</p>
+                                    <span class="timeline-date">Sep 2025 - Present</span>
+                                </div>
+                                <i class="bi bi-chevron-down timeline-icon"></i>
+                            </div>
+                        </div>
+                        <div id="exp1" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="timeline-details">
+                                <p class="location"><i class="bi bi-geo-alt me-2"></i>Gurgaon · Hybrid</p>
+                                <ul class="skills-tags">
+                                    <li>Agile Methodologies</li>
+                                    <li>Scrum Master</li>
+                                    <li>JIRA</li>
+                                    <li>Confluence</li>
+                                    <li>Kanban</li>
+                                    <li>Stakeholder Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-  <!-- Footer -->
-  <footer class="py-3 bg-white border-top text-center">
-    <p class="text-muted mb-0">© 2025 Anamika Saxena | Built with 💙 using Bootstrap & GitHub Pages</p>
-  </footer>
+                    <!-- Experience 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-bs-toggle="collapse" data-bs-target="#exp2" aria-expanded="false">
+                            <div class="timeline-header">
+                                <div>
+                                    <h5 class="timeline-position">Technology Analyst | Scrum Master | PMO</h5>
+                                    <p class="timeline-company">Infosys - Daimler Trucks</p>
+                                    <span class="timeline-date">Jun 2023 - Sep 2025</span>
+                                </div>
+                                <i class="bi bi-chevron-down timeline-icon"></i>
+                            </div>
+                        </div>
+                        <div id="exp2" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="timeline-details">
+                                <p class="location"><i class="bi bi-geo-alt me-2"></i>Gurugram, Haryana · Hybrid</p>
+                                <p class="mb-3"><strong>🚛 Daimler Trucks Engagement:</strong></p>
+                                <ul class="achievement-list">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Facilitates daily Scrum calls for two agile teams (8 & 12 members)</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Implemented Scrumban model in S4 HANA procurement project (NPS)</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Rolled out Kanban methodology for BASIS and Security teams</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Expert in JQL queries; created automated reporting boards using eazyBI</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Conducts retrospective sessions using Miro</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Trained in SAP Build Process Automation</li>
+                                </ul>
+                                <ul class="skills-tags mt-3">
+                                    <li>Scrumban</li>
+                                    <li>EazyBI</li>
+                                    <li>JQL</li>
+                                    <li>Miro</li>
+                                    <li>DevOps</li>
+                                    <li>Risk Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+                    <!-- Experience 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-bs-toggle="collapse" data-bs-target="#exp3" aria-expanded="false">
+                            <div class="timeline-header">
+                                <div>
+                                    <h5 class="timeline-position">Senior System Engineer | Scrum Master</h5>
+                                    <p class="timeline-company">Infosys</p>
+                                    <span class="timeline-date">Dec 2022 - Jun 2023</span>
+                                </div>
+                                <i class="bi bi-chevron-down timeline-icon"></i>
+                            </div>
+                        </div>
+                        <div id="exp3" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="timeline-details">
+                                <p class="location"><i class="bi bi-geo-alt me-2"></i>Chandigarh · Remote</p>
+                                <ul class="achievement-list">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Built centralized knowledge portal, reducing KT time by 70%</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Redesigned onboarding process, cutting time from 3 weeks to 1 week</li>
+                                </ul>
+                                <ul class="skills-tags mt-3">
+                                    <li>SAP Fiori</li>
+                                    <li>SAPUI5</li>
+                                    <li>Product Management</li>
+                                    <li>SQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-bs-toggle="collapse" data-bs-target="#exp4" aria-expanded="false">
+                            <div class="timeline-header">
+                                <div>
+                                    <h5 class="timeline-position">Senior System Engineer | SAP UI5/Fiori Developer</h5>
+                                    <p class="timeline-company">Infosys - Mercedes-Benz</p>
+                                    <span class="timeline-date">Sep 2022 - Dec 2022</span>
+                                </div>
+                                <i class="bi bi-chevron-down timeline-icon"></i>
+                            </div>
+                        </div>
+                        <div id="exp4" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="timeline-details">
+                                <p class="location"><i class="bi bi-geo-alt me-2"></i>Chandigarh</p>
+                                <p class="mb-3"><strong>🚗 Mercedes-Benz Engagement:</strong></p>
+                                <ul class="achievement-list">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Developed master data applications (Factsheets, Ship-To ID, Ship-To Places)</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Conducted unit testing and attended refinement sessions</li>
+                                </ul>
+                                <ul class="skills-tags mt-3">
+                                    <li>SAP ABAP</li>
+                                    <li>SAP UI5</li>
+                                    <li>SAPUI5</li>
+                                    <li>SQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 5 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-bs-toggle="collapse" data-bs-target="#exp5" aria-expanded="false">
+                            <div class="timeline-header">
+                                <div>
+                                    <h5 class="timeline-position">System Engineer | SAP UI5/Fiori Developer</h5>
+                                    <p class="timeline-company">Infosys</p>
+                                    <span class="timeline-date">Nov 2020 - Sep 2022</span>
+                                </div>
+                                <i class="bi bi-chevron-down timeline-icon"></i>
+                            </div>
+                        </div>
+                        <div id="exp5" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="timeline-details">
+                                <p class="location"><i class="bi bi-geo-alt me-2"></i>Mysore, Karnataka</p>
+                                <ul class="achievement-list">
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Trained in SAP UI5/Fiori with hands-on front-end development</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Trained in SAP ABAP for 3 months</li>
+                                    <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Revamped onboarding process for faster integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 6 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content" data-bs-toggle="collapse" data-bs-target="#exp6" aria-expanded="false">
+                            <div class="timeline-header">
+                                <div>
+                                    <h5 class="timeline-position">Internship Trainee</h5>
+                                    <p class="timeline-company">Excellent Training</p>
+                                    <span class="timeline-date">Jun 2018 - Nov 2018</span>
+                                </div>
+                                <i class="bi bi-chevron-down timeline-icon"></i>
+                            </div>
+                        </div>
+                        <div id="exp6" class="accordion-collapse collapse" data-bs-parent="#experienceAccordion">
+                            <div class="timeline-details">
+                                <p class="location"><i class="bi bi-geo-alt me-2"></i>Rohtak, Haryana · On-site</p>
+                                <ul class="skills-tags">
+                                    <li>Java</li>
+                                    <li>Core Java</li>
+                                    <li>HTML</li>
+                                    <li>Problem Solving</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Section -->
+    <section id="case-study" class="case-study-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="section-title">Case Study</h2>
+                    <div class="case-study-card">
+                        <h3 class="h4 fw-bold mb-4">Agile Transformation at Daimler Trucks</h3>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="fw-semibold mb-3">Key Initiatives:</h5>
+                                <ul class="highlights-list">
+                                    <li>
+                                        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                        Introduced sprint reviews, Definition of Done, and real-time dashboards in JIRA
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                        Improved cross-team synchronization and reduced manual reporting
+                                    </li>
+                                </ul>
+                                <div class="result-box mt-4">
+                                    <h5 class="fw-semibold mb-3"><i class="bi bi-trophy-fill text-warning me-2"></i>Results:</h5>
+                                    <p>Predictable sprints, faster releases, and improved stakeholder visibility across the organization.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2 class="section-title text-left mb-5">Licenses & Certifications</h2>
+            <div class="row g-4">
+                
+                <!-- Certification 1 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Certified Scrum Master</h5>
+                        <p class="cert-issuer">Scrum Alliance</p>
+                        <p class="cert-date">Sep 2025</p>
+                    </div>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Consulting Mindset</h5>
+                        <p class="cert-issuer">Infosys</p>
+                        <p class="cert-date">May 2025</p>
+                    </div>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Product Centric Value Delivery</h5>
+                        <p class="cert-issuer">Infosys</p>
+                        <p class="cert-date">May 2025</p>
+                    </div>
+                </div>
+
+                <!-- Certification 4 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">AI-aware</h5>
+                        <p class="cert-issuer">Infosys</p>
+                        <p class="cert-date">Feb 2024</p>
+                    </div>
+                </div>
+
+                <!-- Certification 5 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Automation & Lean Hackathon</h5>
+                        <p class="cert-issuer">Infosys</p>
+                        <p class="cert-date">Feb 2024</p>
+                    </div>
+                </div>
+
+                <!-- Certification 6 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Agile Scrum in Practice</h5>
+                        <p class="cert-issuer">Infosys</p>
+                        <p class="cert-date">Dec 2023</p>
+                    </div>
+                </div>
+
+                <!-- Certification 7 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Scrum Master</h5>
+                        <p class="cert-issuer">LearnTube.ai</p>
+                        <p class="cert-date">Dec 2023</p>
+                    </div>
+                </div>
+
+                <!-- Certification 8 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Azure AI Fundamentals</h5>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-date">Sep 2022</p>
+                    </div>
+                </div>
+
+                <!-- Certification 9 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">SAP Fiori Professional Consultant</h5>
+                        <p class="cert-issuer">Infosys</p>
+                        <p class="cert-date">Aug 2021</p>
+                    </div>
+                </div>
+
+                <!-- Certification 10 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Azure Fundamentals</h5>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-date">Jun 2021</p>
+                    </div>
+                </div>
+
+                <!-- Certification 11 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">Product Management</h5>
+                        <p class="cert-issuer">Udemy</p>
+                        <p class="cert-date">Mar 2022</p>
+                    </div>
+                </div>
+
+                <!-- Certification 12 -->
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="cert-card">
+                        <h5 class="cert-title">E Litmus: 89%</h5>
+                        <p class="cert-issuer">eLitmus Evaluation</p>
+                        <p class="cert-date">Sep 2019</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- LinkedIn Posts Section -->
+    <section id="linkedin-posts" class="linkedin-posts-section">
+        <div class="container">
+            <h2 class="section-title text-left mb-5">Latest Posts</h2>
+            <div class="row g-4">
+                
+                <!-- Post 1 -->
+                <div class="col-lg-4">
+                    <div class="linkedin-post-card">
+                        <div class="post-author">
+                            <div class="author-avatar">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <h6 class="author-name mb-0">Anamika Saxena</h6>
+                                <p class="post-date text-muted mb-0">4 days ago</p>
+                            </div>
+                            <i class="bi bi-linkedin ms-auto text-primary fs-4"></i>
+                        </div>
+                        <h5 class="post-title">50+ Retrospectives. One Breakthrough.</h5>
+                        <p class="post-excerpt">
+                            "For months, our retros were quiet. Then I tried something different - Miro's Islands of Golocans template. What happened next changed everything..."
+                        </p>
+                        <div class="post-image">
+                            <img src="./assets/images/l1.png" alt="From Silence to Spark - Retrospective Post" class="linkedin-post-img">
+                        </div>
+                        <div class="post-engagement">
+                            <span><i class="bi bi-hand-thumbs-up-fill me-1"></i>64 Likes</span>
+                            <span><i class="bi bi-chat-dots-fill ms-3 me-1"></i>7 Comments</span>
+                        </div>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7381986882001305600/" target="_blank" class="btn btn-outline-primary btn-sm mt-3 w-100">
+                            <i class="bi bi-linkedin me-2"></i>Read Full Post
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="col-lg-4">
+                    <div class="linkedin-post-card">
+                        <div class="post-author">
+                            <div class="author-avatar">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <h6 class="author-name mb-0">Anamika Saxena</h6>
+                                <p class="post-date text-muted mb-0">1 week ago</p>
+                            </div>
+                            <i class="bi bi-linkedin ms-auto text-primary fs-4"></i>
+                        </div>
+                        <h5 class="post-title">Agile Insights</h5>
+                        <p class="post-excerpt">
+                            Sharing my latest thoughts and experiences on Agile transformation, team collaboration, and driving business outcomes.
+                        </p>
+                        <div class="post-image">
+                            <img src="./assets/images/l2.png" alt="Agile Insights Post" class="linkedin-post-img">
+                        </div>
+                        <div class="post-engagement">
+                            <span><i class="bi bi-hand-thumbs-up-fill me-1"></i>45+ Likes</span>
+                            <span><i class="bi bi-chat-dots-fill ms-3 me-1"></i>5 Comments</span>
+                        </div>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7376656437810438144/" target="_blank" class="btn btn-outline-primary btn-sm mt-3 w-100">
+                            <i class="bi bi-linkedin me-2"></i>Read Full Post
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="col-lg-4">
+                    <div class="linkedin-post-card">
+                        <div class="post-author">
+                            <div class="author-avatar">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <h6 class="author-name mb-0">Anamika Saxena</h6>
+                                <p class="post-date text-muted mb-0">2 weeks ago</p>
+                            </div>
+                            <i class="bi bi-linkedin ms-auto text-primary fs-4"></i>
+                        </div>
+                        <h5 class="post-title">Scrum Master Journey</h5>
+                        <p class="post-excerpt">
+                            Reflecting on the journey of leading agile teams and building a culture of continuous improvement and collaboration.
+                        </p>
+                        <div class="post-image">
+                            <div class="linkedin-post-placeholder">
+                                <i class="bi bi-people fs-1 text-primary"></i>
+                                <p class="mb-0 mt-2"><small>Team Leadership & Scrum Mastery</small></p>
+                            </div>
+                        </div>
+                        <div class="post-engagement">
+                            <span><i class="bi bi-hand-thumbs-up-fill me-1"></i>58+ Likes</span>
+                            <span><i class="bi bi-chat-dots-fill ms-3 me-1"></i>8 Comments</span>
+                        </div>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7370565348686950400/" target="_blank" class="btn btn-outline-primary btn-sm mt-3 w-100">
+                            <i class="bi bi-linkedin me-2"></i>Read Full Post
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="https://www.linkedin.com/in/anamika-saxena1999/recent-activity/all/" target="_blank" class="btn btn-primary btn-lg">
+                    <i class="bi bi-linkedin me-2"></i>View All Posts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="recommendations-section">
+        <div class="container">
+            <h2 class="section-title text-left mb-5">What People Say</h2>
+            <div class="row g-4">
+                <!-- Recommendation 1 -->
+                <div class="col-md-4">
+                    <div class="recommendation-card">
+                        <i class="bi bi-chat-quote quote-icon-card"></i>
+                        <p class="recommendation-text">
+                            "Anamika's leadership as a Scrum Master has been invaluable. She redefined our sprint planning and retrospectives, which improved team morale and delivery speed."
+                        </p>
+                        <div class="recommendation-author">
+                            <strong>Priya Patel</strong>
+                            <br>
+                            <small class="text-muted">Product Owner</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Recommendation 2 -->
+                <div class="col-md-4">
+                    <div class="recommendation-card">
+                        <i class="bi bi-chat-quote quote-icon-card"></i>
+                        <p class="recommendation-text">
+                            "Her expertise and open communication style made our Kanban rollout smooth and effective."
+                        </p>
+                        <div class="recommendation-author">
+                            <strong>Rajesh Gupta</strong>
+                            <br>
+                            <small class="text-muted">Security Lead</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Recommendation 3 -->
+                <div class="col-md-4">
+                    <div class="recommendation-card">
+                        <i class="bi bi-chat-quote quote-icon-card"></i>
+                        <p class="recommendation-text">
+                            "Anamika's facilitation of stand-ups and clear tracking kept our international team aligned and on schedule."
+                        </p>
+                        <div class="recommendation-author">
+                            <strong>Martina Schmidt</strong>
+                            <br>
+                            <small class="text-muted">Agile Coach</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="connect-section">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="section-title" style="border-left: none!important;">Let's Connect</h2>
+                    <p class="lead mb-4">Follow my latest posts and Agile insights on LinkedIn.</p>
+                    <a href="https://www.linkedin.com/in/anamika-saxena1999/" target="_blank" class="btn btn-primary btn-lg px-5 py-3">
+                        <i class="bi bi-linkedin me-2"></i>Visit My LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">© 2025 Anamika Saxena</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offset = 80;
+                    const targetPosition = target.offsetTop - offset;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
+
